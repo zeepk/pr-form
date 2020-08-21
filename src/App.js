@@ -7,6 +7,11 @@ import 'primeicons/primeicons.css';
 import 'bootswatch/dist/darkly/bootstrap.min.css';
 import 'shards-ui/dist/css/shards.min.css';
 import 'rsuite/dist/styles/rsuite-default.css';
+
+// TODO:
+// add max width for the bars
+// remove errors & warnings
+
 function App() {
 	return (
 		<div className="App">

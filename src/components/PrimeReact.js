@@ -145,7 +145,10 @@ export default class PrimeReact extends Component {
 				</Menubar>
 				<p className="description">
 					Can't figure out the "start" template, but that's probably user error
-					😄 Otherwise very powerful. Items come from JSON array.
+					<span role="img" aria-label="smile">
+						😄
+					</span>
+					Otherwise very powerful. Items come from JSON array.
 				</p>
 			</div>
 		);

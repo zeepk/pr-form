@@ -16,7 +16,10 @@ export default class TheNav extends Component {
 					</p>
 					<p>
 						Clicking on the Brand on the left side of each bar will take you to
-						the docs/homepage 😊
+						the docs/homepage
+						<span role="img" aria-label="smile">
+							😊
+						</span>
 					</p>
 				</div>
 				<div className="nav-container">
