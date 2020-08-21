@@ -9,7 +9,7 @@ export default class Bootstrap extends Component {
 	render() {
 		return (
 			<div>
-				<Navbar bg="light" expand="lg">
+				<Navbar bg="dark" expand="lg">
 					<Navbar.Brand href="https://react-bootstrap.github.io/">
 						React-Bootstrap
 					</Navbar.Brand>
@@ -19,15 +19,15 @@ export default class Bootstrap extends Component {
 							<Nav.Link href="#home">Home</Nav.Link>
 							<Nav.Link href="#link">Link</Nav.Link>
 							<NavDropdown title="Dropdown" id="basic-nav-dropdown">
-								<NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-								<NavDropdown.Item href="#action/3.2">
+								<NavDropdown.Item className="action">Action</NavDropdown.Item>
+								<NavDropdown.Item className="action">
 									Another action
 								</NavDropdown.Item>
-								<NavDropdown.Item href="#action/3.3">
+								<NavDropdown.Item className="action">
 									Something
 								</NavDropdown.Item>
 								<NavDropdown.Divider />
-								<NavDropdown.Item href="#action/3.4">
+								<NavDropdown.Item className="action">
 									Separated link
 								</NavDropdown.Item>
 							</NavDropdown>

@@ -8,7 +8,7 @@ const Grommet = () => {
 	return (
 		<div>
 			<Nav direction="row" background="neutral-3" pad="small">
-				<Button primary label="Grommet" href="https://v2.grommet.io/" />
+				<Button secondary label="Grommet" href="https://v2.grommet.io/" />
 				<Anchor icon={<Home />} hoverIndicator />
 				<Menu
 					label="Menu"

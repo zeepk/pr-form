@@ -9,8 +9,9 @@ import 'shards-ui/dist/css/shards.min.css';
 import 'rsuite/dist/styles/rsuite-default.css';
 
 // TODO:
-// add max width for the bars
+// add max width for the bars DONE
 // remove errors & warnings
+// add bottom bar
 
 function App() {
 	return (

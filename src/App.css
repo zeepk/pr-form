@@ -6,9 +6,44 @@ html {
 	min-height: 100vh;
 }
 .nav-container {
-	margin: 0 0 50px 0;
+	margin: 0 auto 50px auto;
+	max-width: 1000px;
 }
 .description {
 	color: white;
 	margin: 10px 50px;
+}
+.action {
+	color: black !important;
+}
+
+/* footer stuff */
+
+.footer {
+	padding: 5px 0;
+	background-color: rgb(104, 104, 104);
+	font-size: 16px;
+}
+.made-by {
+	display: inline;
+	margin: 0 !important;
+	color: white;
+}
+a {
+	display: inline;
+	color: white !important;
+	padding: 5px 0;
+}
+#count {
+	display: none !important;
+}
+ul {
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0 10px;
+	overflow: hidden;
+}
+li {
+	padding-right: 2vw;
+	float: left;
 }

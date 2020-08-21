@@ -9,7 +9,14 @@ export default class TheNav extends Component {
 	render() {
 		return (
 			<div>
-				<div style={{ padding: '20px', color: 'white', fontSize: '1.2rem' }}>
+				<div
+					style={{
+						padding: '50px 0',
+						color: 'white',
+						fontSize: '1.2rem',
+						textAlign: 'center',
+					}}
+				>
 					<p>
 						Here are some examples of Navigation Bars from different React UI
 						Libraries.
@@ -37,8 +44,41 @@ export default class TheNav extends Component {
 				<div className="nav-container">
 					<Shards />
 				</div>
-				<div className="nav-container" style={{ paddingBottom: '300px' }}>
+				<div className="nav-container" style={{ paddingBottom: '100px' }}>
 					<ReactSuite />
+				</div>
+				<div className="footer">
+					<ul>
+						<li>
+							<p className="made-by">
+								<span role="img" aria-label="laptop">
+									💻
+								</span>
+								Version 1.0.2
+							</p>
+						</li>
+						<li></li>
+						<li>
+							<p className="made-by">
+								<span role="img" aria-label="smile">
+									😊
+								</span>
+								Contact me for suggestions!{' '}
+								<a href="https://twitter.com/matthughes2112">@matthughes2112</a>
+							</p>
+						</li>
+						<li>
+							<p className="made-by">
+								<a href="https://github.com/zeepk/ui-libraries">
+									<span role="img" aria-label="cat">
+										🐈
+									</span>
+									Github Source
+								</a>
+							</p>
+						</li>
+						<li></li>
+					</ul>
 				</div>
 			</div>
 		);
