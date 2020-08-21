@@ -7,7 +7,7 @@ html {
 }
 .nav-container {
 	margin: 0 auto 50px auto;
-	max-width: 1000px;
+	max-width: 1200px;
 }
 .description {
 	color: white;
@@ -29,21 +29,18 @@ html {
 	margin: 0 !important;
 	color: white;
 }
-a {
+.footer-link {
 	display: inline;
 	color: white !important;
 	padding: 5px 0;
 }
-#count {
-	display: none !important;
-}
-ul {
+.footer-ul {
 	list-style-type: none;
 	margin: 0 auto;
 	padding: 0 10px;
 	overflow: hidden;
 }
-li {
+.footer-li {
 	padding-right: 2vw;
 	float: left;
 }

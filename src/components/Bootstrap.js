@@ -9,7 +9,7 @@ export default class Bootstrap extends Component {
 	render() {
 		return (
 			<div>
-				<Navbar bg="dark" expand="lg">
+				<Navbar bg="light" expand="lg">
 					<Navbar.Brand href="https://react-bootstrap.github.io/">
 						React-Bootstrap
 					</Navbar.Brand>

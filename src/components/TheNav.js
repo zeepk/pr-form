@@ -48,8 +48,8 @@ export default class TheNav extends Component {
 					<ReactSuite />
 				</div>
 				<div className="footer">
-					<ul>
-						<li>
+					<ul className="footer-ul">
+						<li className="footer-li">
 							<p className="made-by">
 								<span role="img" aria-label="laptop">
 									💻
@@ -57,19 +57,27 @@ export default class TheNav extends Component {
 								Version 1.0.2
 							</p>
 						</li>
-						<li></li>
-						<li>
+						<li className="footer-li"></li>
+						<li className="footer-li">
 							<p className="made-by">
 								<span role="img" aria-label="smile">
 									😊
 								</span>
 								Contact me for suggestions!{' '}
-								<a href="https://twitter.com/matthughes2112">@matthughes2112</a>
+								<a
+									className="footer-link"
+									href="https://twitter.com/matthughes2112"
+								>
+									@matthughes2112
+								</a>
 							</p>
 						</li>
-						<li>
+						<li className="footer-li">
 							<p className="made-by">
-								<a href="https://github.com/zeepk/ui-libraries">
+								<a
+									className="footer-link"
+									href="https://github.com/zeepk/ui-libraries"
+								>
 									<span role="img" aria-label="cat">
 										🐈
 									</span>
@@ -77,7 +85,7 @@ export default class TheNav extends Component {
 								</a>
 							</p>
 						</li>
-						<li></li>
+						<li className="footer-li"></li>
 					</ul>
 				</div>
 			</div>
