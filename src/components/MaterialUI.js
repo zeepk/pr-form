@@ -5,6 +5,7 @@ import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
+import Link from '@material-ui/core/Link';
 
 export default function MaterialUI() {
 	const [anchorEl, setAnchorEl] = React.useState(null);
@@ -21,7 +22,14 @@ export default function MaterialUI() {
 		<div>
 			<AppBar position="static" style={{}}>
 				<Toolbar>
-					<h2 style={{ margin: '0 30px 0 0' }}>MaterialUI</h2>
+					<Link
+						href="https://material-ui.com/"
+						style={{ margin: '0 30px 0 0' }}
+						color="inherit"
+						variant="h4"
+					>
+						MaterialUI
+					</Link>
 					<IconButton edge="start" color="inherit" aria-label="menu">
 						<Button
 							aria-controls="simple-menu"
@@ -58,8 +66,9 @@ export default function MaterialUI() {
 				</Toolbar>
 			</AppBar>
 			<p className="description">
-				Not much is built in, like opening/closing menus or active item
-				highlighting.
+				Easy to implement. Not much is built in, like opening/closing menus or
+				active item highlighting. Hover default looks pretty bad, will need to
+				override CSS for colors.
 			</p>
 		</div>
 	);

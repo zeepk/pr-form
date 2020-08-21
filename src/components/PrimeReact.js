@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import { Menubar } from 'primereact/menubar';
 import { Button } from 'primereact/button';
-
+import { InputText } from 'primereact/inputtext';
 const items = [
 	{
 		label: 'PrimeReact',
+		url: 'https://www.primefaces.org/primereact',
 	},
 	{
 		label: 'File',
@@ -130,8 +131,8 @@ const items = [
 ];
 export default class PrimeReact extends Component {
 	render() {
-		const start = <Button label="PrimeReact" className="p-button-warning" />;
-		const end = <Button label="PrimeReact" className="p-button-warning" />;
+		const start = <InputText placeholder="Search" type="text" />;
+		const end = <InputText placeholder="Search" type="text" />;
 		return (
 			<div>
 				<Menubar
@@ -143,8 +144,8 @@ export default class PrimeReact extends Component {
 					<Button label="Logout" className="p-button-warning" />
 				</Menubar>
 				<p className="description">
-					Can't figure out the "start" template, but otherwise very powerful.
-					Items come from JSON array.
+					Can't figure out the "start" template, but that's probably user error
+					😄 Otherwise very powerful. Items come from JSON array.
 				</p>
 			</div>
 		);
