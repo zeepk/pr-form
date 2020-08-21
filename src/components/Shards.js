@@ -15,7 +15,12 @@ const Shards = () => {
 		<div>
 			<Nav style={{ backgroundColor: '#4a4a4a', padding: '10px' }} pills>
 				<NavItem style={{ margin: '0 30px 0 10px' }}>
-					<h4 style={{ color: 'white' }}>Shards React</h4>
+					<h4
+						style={{ color: 'white' }}
+						href="https://designrevision.com/docs/shards-react/getting-started"
+					>
+						Shards React
+					</h4>
 				</NavItem>
 				<NavItem style={{ marginLeft: '10px' }}>
 					<NavLink active href="#">

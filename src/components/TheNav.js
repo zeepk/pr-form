@@ -5,11 +5,20 @@ import Bootstrap from './Bootstrap';
 import Shards from './Shards';
 import ReactSuite from './ReactSuite';
 import Grommet from './Grommet';
-import Semantic from './Semantic';
 export default class TheNav extends Component {
 	render() {
 		return (
 			<div>
+				<div style={{ padding: '20px', color: 'white', fontSize: '1.2rem' }}>
+					<p>
+						Here are some examples of Navigation Bars from different React UI
+						Libraries.
+					</p>
+					<p>
+						Clicking on the Brand on the left side of each bar will take you to
+						the docs/homepage 😊
+					</p>
+				</div>
 				<div className="nav-container">
 					<MaterialUI />
 				</div>
@@ -20,16 +29,13 @@ export default class TheNav extends Component {
 					<Bootstrap />
 				</div>
 				<div className="nav-container">
-					<Shards />
-				</div>
-				<div className="nav-container">
-					<ReactSuite />
-				</div>
-				<div className="nav-container">
 					<Grommet />
 				</div>
 				<div className="nav-container">
-					<Semantic />
+					<Shards />
+				</div>
+				<div className="nav-container" style={{ paddingBottom: '300px' }}>
+					<ReactSuite />
 				</div>
 			</div>
 		);

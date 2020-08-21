@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav, Anchor, Menu, TextInput } from 'grommet';
+import { Nav, Anchor, Menu, TextInput, Button } from 'grommet';
 import { Home, Notification, ChatOption } from 'grommet-icons';
 
 const Grommet = () => {
@@ -8,6 +8,7 @@ const Grommet = () => {
 	return (
 		<div>
 			<Nav direction="row" background="neutral-3" pad="small">
+				<Button primary label="Grommet" href="https://v2.grommet.io/" />
 				<Anchor icon={<Home />} hoverIndicator />
 				<Menu
 					label="Menu"

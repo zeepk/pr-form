@@ -7,7 +7,7 @@ export default class ReactSuite extends Component {
 			<div>
 				<Navbar appearance="inverse">
 					<Navbar.Header style={{ marginLeft: '20px' }}>
-						<a href="#" className="navbar-brand logo">
+						<a href="https://rsuitejs.com/" className="navbar-brand logo">
 							RSUITE
 						</a>
 					</Navbar.Header>
