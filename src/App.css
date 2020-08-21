@@ -1,4 +1,11 @@
 .App {
-	background-color: #45433d;
-	padding: 10vh 10vw;
+	background-color: #383837;
+	min-height: 100vh;
+}
+.nav-container {
+	margin: 0 0 50px 0;
+}
+.description {
+	color: white;
+	margin: 10px 50px;
 }
